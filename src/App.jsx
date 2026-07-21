@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 
 import Navigation from "./components/navbar";
 import Home from "./pages/homepage";
@@ -36,10 +36,12 @@ function Layout() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout />
-      <Footer/>
-    </BrowserRouter>
+      <Footer />
+    </HashRouter>
+      
+    
   );
 }
 

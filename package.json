@@ -4,16 +4,16 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage":  "https://swastik888.github.io/online-library-system/",
+  "homepage": "https://Swastik888.github.io/Online-library/",
 
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "oxlint",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
 
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

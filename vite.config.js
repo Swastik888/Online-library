@@ -8,6 +8,6 @@ export default defineConfig({
     tailwindcss(),
   ],
 
-  base: "/online-library-system/"
+   base: "/Online-library/"
   
 })
